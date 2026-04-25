@@ -1,0 +1,22 @@
+:root{
+  --yellow : #c6b081;
+  --green: #0b1617;
+}
+
+@font-face {
+  font-family: 'Popping';
+  src: url(./assets/fuentes/popping/Poppins-Light.ttf);
+}
+@font-face {
+  font-family: 'Bricolage';
+  src: url(./assets/fuentes/bricolage/BricolageGrotesque_24pt-Light.ttf);
+}
+
+a, p, input, select{
+  font-family: 'Popping';
+  font-size: 18px;
+}
+
+h1, h2, h3, h4, h5{
+  font-family: 'Bricolage';
+}
